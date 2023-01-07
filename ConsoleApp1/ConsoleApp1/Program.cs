@@ -1,10 +1,16 @@
-﻿namespace ConsoleApp1
+﻿namespace SnakeAndLadder
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Snake and ladder");
+            Console.WriteLine("Snake & Ladder Simulator");
+
+            int position = 0;
+
+            Console.WriteLine("Welcome Player 1");
+            Console.WriteLine("Player 1 is at position : " + position);
+
         }
     }
 }
